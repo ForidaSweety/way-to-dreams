@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background-image: url(../image/banner/banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bannar{
+    display: flex;
+    align-items: center;
+    margin: 0 120px;
+    margin-bottom: 130px;
+}
+.bannar-title{
+    font-weight: 700;
+font-size: 65px;
+color: ghostwhite;
+text-align: right;
+padding:200px 50px 30px 650px; 
+}
+.bannar-description{
+    font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+text-align: right;
+padding:0px 50px 30px 650px;
+}
+.btn-primary{
+    display: flex;
+    background:rgb(232, 113, 69);
+    width: 120px;
+height: 64px;
+text-align: right;
+align-items: center;
+border-radius: 5px;
+margin-left: 1250px;
+margin-bottom: 400px;
+}
+/* main section */
+/* main{
+    max-width: 1140px;
+    margin: 0 auto;
+} */
+.second{
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+    padding: 206px;
+    padding-right: 50px;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 35px;
+}
+.drive-image .images{
+    width: 569px;
+height: 723.3px;
+padding-left:50px 220px;
+}
+.second .section-title{
+    padding: 200px;
+    padding-bottom: 0;
+    text-align: left;
+    font-weight: 700;
+font-size: 40px;
+}
+.second-one .section-description{
+    font-weight: 400;
+font-size: 18px;
+    color: cyan;
+    padding: 200px;
+    padding-top: 30px;
+}
+/* my plans section */
+.skills-container{
+    display: flex;
+    gap: 50px;
+    padding: 100px;
+   margin-left: 250px;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+    
+    
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.skill-dscription{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+ 
+.color-gradient .text{
+    color: rgb(235, 233, 232);
+    font-weight: 700;
+    font-size: 40px;
+    text-align: left;
+    padding: 90px 30px 20px;
+}
+ .color-gradient .text-btn{
+    background:rgb(235, 233, 232);
+    width: 120px;
+    height: 64px;
+    margin-left: 30px;
+}
+.gradient{
+    background-image:url(../image/watch.png);
+    width: 1140px;
+    height: 300px;
+    margin-left: 240px; 
+    margin-bottom: 100px;  
+}
+ 
+/* bottom part */
+.contact{
+    display: flex;
+    gap: 117px;
+    background: black;
+    padding: 130px 200px;
+}
+.contact .section-title{
+    text-align: left;
+    color: #FFFFFF;
+}
+.contact .section-description{
+    color: #FFFFFF;
+    padding-bottom: 20px;
+    padding-right: 500px;
+}
+.contact input[type="text"]{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding:18px 30px ;
+}
+.contact a{
+   text-decoration: none;
+}
+.sub-button{
+    background:rgb(232, 113, 69);
+    width: 120px;
+    height: 50px;
+    text-align: center; 
+    margin-right: 300px;
+}
+.email-box{
+    width: 325px;
+height: 64px;
+margin-bottom: 10px;
+
+}
+
+
