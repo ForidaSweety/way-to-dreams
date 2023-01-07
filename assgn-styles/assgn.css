@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     margin: 0 120px;
-    margin-bottom: 130px;
+    margin-bottom: 100px;
 }
 .bannar-title{
     font-weight: 700;
@@ -35,14 +35,10 @@ height: 64px;
 text-align: right;
 align-items: center;
 border-radius: 5px;
-margin-left: 1250px;
+margin-left: 1100px;
 margin-bottom: 400px;
 }
 /* main section */
-/* main{
-    max-width: 1140px;
-    margin: 0 auto;
-} */
 .second{
     display: flex;
     gap: 24px;
@@ -71,11 +67,66 @@ font-size: 40px;
 .second-one .section-description{
     font-weight: 400;
 font-size: 18px;
-    color: cyan;
-    padding: 200px;
-    padding-top: 30px;
+    color: rgb(35, 27, 27);
+    padding-left: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+/* add new section */
+.new{
+    display: flex;
+    gap: 24px;
+    padding: 0 150px;
+    margin-bottom: 100px;
+}
+
+.new .section-title{
+
+    text-align: left;
+    padding-left: 70px;
+}
+.new-one .new-description{   
+    text-align:left;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 70px;   
+}
+.dive-image .image{
+    width: 456px;
+height: 477px;
+
+
+}
+.point-container{
+    display: flex;
+    padding: 30px 70px;
+    padding-right: 670px;
+}
+.point-title{
+   padding-bottom: 15px;
+}
+.new-description{
+    text-align:left;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 70px;
+    padding-right: 400px;
+}
+.section-two-container{
+    display: flex;
+    gap: 50px;
+    padding: 100px;
+   margin-left: 250px;
+}
+
 /* my plans section */
+ul {
+margin-left: 180px;
+}
+li{
+    list-style-image: url(../image/icons/check-solid.svg );
+
+}
 .skills-container{
     display: flex;
     gap: 50px;
@@ -87,8 +138,6 @@ font-size: 18px;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     padding: 30px;
-    
-    
 }
 .skill-title{
     font-weight: 700;
@@ -102,7 +151,10 @@ font-size: 18px;
     font-size: 16px;
     color: #757575;
 }
+
+/* try */
  
+/* try */
 .color-gradient .text{
     color: rgb(235, 233, 232);
     font-weight: 700;
@@ -117,14 +169,14 @@ font-size: 18px;
     margin-left: 30px;
 }
 .gradient{
-    background-image:url(../image/watch.png);
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../image/watch.png);
     width: 1140px;
     height: 300px;
     margin-left: 240px; 
     margin-bottom: 100px;  
 }
  
-/* bottom part */
+/* footer section */
 .contact{
     display: flex;
     gap: 117px;
@@ -138,7 +190,7 @@ font-size: 18px;
 .contact .section-description{
     color: #FFFFFF;
     padding-bottom: 20px;
-    padding-right: 500px;
+    padding-right: 300px;
 }
 .contact input[type="text"]{
     margin-bottom: 24px;
